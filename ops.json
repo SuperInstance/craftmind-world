@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "4c6ae3d3-342b-3aa0-ab31-a02a9e403356",
+    "name": "Gallery",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a3d33c2d-5267-3d8f-8d04-c1aa4c4d7008",
+    "name": "MagnusandMouse",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d3e34b2e-a3c6-3694-9902-0768b973e653",
+    "name": "MapProbe4",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
