@@ -20,3 +20,15 @@ directory on the Orin (~/minecraft-server) at programme rest.
   cache/.
 - logs/ and plugins/ (bStats + spark data dirs) — server ephemera.
 - session.lock files — runtime artefacts of the copy moment.
+
+## Final snapshot — 2026-11-16
+
+Programme shutdown (Casey's order, 2026-11-16). The Paper server
+was stopped gracefully via its systemd user unit at 16:35:59 UTC
+(log: Stopping server -> Saving players -> Saving worlds ->
+ThreadedAnvilChunkStorage: All dimensions are saved), the unit was
+disabled, and this commit is the world exactly as saved at that
+stop. The local server directory was then pruned; revival
+instructions are in SHUTDOWN-20261116.md in
+SuperInstance/craftmind-league. server.properties remains withheld
+(live credentials) and is preserved in the Thor away archive.
